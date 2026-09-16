@@ -1,0 +1,20 @@
+{
+  "name": "codex-startup-skill-pack",
+  "interface": {
+    "displayName": "Codex Startup Skill Pack"
+  },
+  "plugins": [
+    {
+      "name": "codex-startup-skill-pack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-startup-skill-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

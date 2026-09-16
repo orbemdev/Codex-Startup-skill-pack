@@ -1,0 +1,27 @@
+{
+  "name": "codex-startup-skill-pack",
+  "version": "1.0.0",
+  "description": "A portable Codex workflow pack for discovery, planning, implementation, debugging, verification, review, frontend design, and product interrogation.",
+  "author": {
+    "name": "orbemdev",
+    "url": "https://github.com/orbemdev"
+  },
+  "homepage": "https://github.com/orbemdev/Codex-Startup-skill-pack",
+  "repository": "https://github.com/orbemdev/Codex-Startup-skill-pack",
+  "keywords": ["codex", "agent-skills", "development-workflow", "superpowers"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Startup Skill Pack",
+    "shortDescription": "A complete, reusable Codex development workflow.",
+    "longDescription": "Adds planning, TDD, debugging, verification, code review, worktree, frontend design, and product interrogation skills to Codex.",
+    "developerName": "orbemdev",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/orbemdev/Codex-Startup-skill-pack",
+    "defaultPrompt": [
+      "Pressure-test this project before implementation.",
+      "Help me design and implement this feature safely.",
+      "Debug this issue systematically and verify the fix."
+    ]
+  }
+}
