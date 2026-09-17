@@ -1,6 +1,6 @@
 # Codex Startup Skill Pack
 
-A skills-only Codex plugin that bundles a practical development workflow in one installable package.
+A skills-only plugin for Codex and Claude Code that bundles a practical development workflow in one installable package.
 
 ## Included skills
 
@@ -21,7 +21,7 @@ A skills-only Codex plugin that bundles a practical development workflow in one 
 - `frontend-design`
 - `grill-me`
 
-## Install
+## Install in Codex
 
 Register the GitHub repository as a Codex marketplace, then install the plugin:
 
@@ -38,7 +38,7 @@ codex plugin marketplace add ./Codex-Startup-skill-pack
 codex plugin add codex-startup-skill-pack@codex-startup-skill-pack
 ```
 
-Restart Codex after installation so the skill catalog reloads. If the repository is private, the recipient must have GitHub access and authenticate Git before installing it.
+Restart Codex after installation so the skill catalog reloads.
 
 The multi-agent workflow skills require this setting in `~/.codex/config.toml`:
 
@@ -48,6 +48,28 @@ multi_agent = true
 ```
 
 Do not remove existing configuration when adding it.
+
+## Install in Claude Code
+
+From a terminal:
+
+```bash
+claude plugin marketplace add orbemdev/Codex-Startup-skill-pack
+claude plugin install codex-startup-skill-pack@codex-startup-skill-pack
+```
+
+Or from an interactive Claude Code session:
+
+```text
+/plugin marketplace add orbemdev/Codex-Startup-skill-pack
+/plugin install codex-startup-skill-pack@codex-startup-skill-pack
+```
+
+Restart Claude Code or run `/reload-plugins` after installation. Plugin skills use the `codex-startup-skill-pack:` namespace; for example:
+
+```text
+/codex-startup-skill-pack:grill-me
+```
 
 ## Sources and licenses
 

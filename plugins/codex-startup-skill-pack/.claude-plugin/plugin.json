@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "codex-startup-skill-pack",
+  "displayName": "Codex Startup Skill Pack",
+  "version": "1.0.1",
+  "description": "A reusable development workflow for discovery, planning, TDD, debugging, verification, review, frontend design, and product interrogation.",
+  "author": {
+    "name": "orbemdev"
+  },
+  "homepage": "https://github.com/orbemdev/Codex-Startup-skill-pack",
+  "repository": "https://github.com/orbemdev/Codex-Startup-skill-pack",
+  "keywords": [
+    "agent-skills",
+    "development-workflow",
+    "superpowers",
+    "codex",
+    "claude-code"
+  ]
+}

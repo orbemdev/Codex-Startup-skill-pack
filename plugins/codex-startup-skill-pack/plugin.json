@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "codex-startup-skill-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A portable Codex workflow pack for discovery, planning, implementation, debugging, verification, review, frontend design, and product interrogation."
 }

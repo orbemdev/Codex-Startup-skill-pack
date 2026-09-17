@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "codex-startup-skill-pack",
+  "description": "A cross-agent marketplace for a reusable software-development workflow.",
+  "owner": {
+    "name": "orbemdev"
+  },
+  "plugins": [
+    {
+      "name": "codex-startup-skill-pack",
+      "source": "./plugins/codex-startup-skill-pack",
+      "description": "A reusable development workflow for discovery, planning, TDD, debugging, verification, review, frontend design, and product interrogation."
+    }
+  ]
+}
